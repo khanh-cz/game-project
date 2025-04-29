@@ -1,9 +1,8 @@
 #include <iostream>
+#include "Game.h"
 
-using namespace std;
-
-int main()
-{
-    cout << "Fuck quan!" << endl;
+int main() {
+    Game game;
+    game.play();
     return 0;
 }
