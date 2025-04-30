@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build SDL2 Project",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "main.cpp",
+          "game.cpp",
+          "-I$env:USERPROFILE\\scoop\\apps\\sdl2\\current\\include",
+          "-L$env:USERPROFILE\\scoop\\apps\\sdl2\\current\\lib",
+          "-lSDL2",
+          "-o",
+          "caro.exe"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
