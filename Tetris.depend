@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1747752784 source:d:\tetris\tetris\src\main.cpp
+	"app.hpp"
+	<SDL2/SDL.h>
+	<cstdio>
+
+1747757307 d:\tetris\tetris\src\app.hpp
+
+1747752235 source:d:\tetris\tetris\src\app.cpp
+	"app.hpp"
+	"game.hpp"
+	"renderer.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<chrono>
+	<cstdio>
+	<emscripten.h>
+
+1747757347 d:\tetris\tetris\src\game.hpp
+	"utils.hpp"
+	<memory>
+	<vector>
+
+1747747352 d:\tetris\tetris\src\utils.hpp
+
+1747757374 d:\tetris\tetris\src\renderer.hpp
+	"utils.hpp"
+	<SDL2/SDL_ttf.h>
+	<string>
+
+1747752568 source:d:\tetris\tetris\src\game.cpp
+	"game.hpp"
+	"renderer.hpp"
+	<random>
+	<algorithm>
+
+1747752877 source:d:\tetris\tetris\src\renderer.cpp
+	"renderer.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdio>
+
+1747752235 source:c:\users\khanh\documents\khanhngu\game-project\src\app.cpp
+	"app.hpp"
+	"game.hpp"
+	"renderer.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<chrono>
+	<cstdio>
+	<emscripten.h>
+
+1747757307 c:\users\khanh\documents\khanhngu\game-project\src\app.hpp
+
+1747757347 c:\users\khanh\documents\khanhngu\game-project\src\game.hpp
+	"utils.hpp"
+	<memory>
+	<vector>
+
+1747747352 c:\users\khanh\documents\khanhngu\game-project\src\utils.hpp
+
+1747757374 c:\users\khanh\documents\khanhngu\game-project\src\renderer.hpp
+	"utils.hpp"
+	<SDL2/SDL_ttf.h>
+	<string>
+
+1747752568 source:c:\users\khanh\documents\khanhngu\game-project\src\game.cpp
+	"game.hpp"
+	"renderer.hpp"
+	<random>
+	<algorithm>
+
+1747752784 source:c:\users\khanh\documents\khanhngu\game-project\src\main.cpp
+	"app.hpp"
+	<SDL2/SDL.h>
+	<cstdio>
+
+1747752877 source:c:\users\khanh\documents\khanhngu\game-project\src\renderer.cpp
+	"renderer.hpp"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<cstdio>
+
